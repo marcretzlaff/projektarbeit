@@ -1,0 +1,8 @@
+Quellen mit Link, Datum keywords versehen.
+Screencaptures im Ordner speichern. (Chrome Plugin: Full Page Screen Capture -> pdf)
+
+
+Quelle:
+
+http://www.cs.colby.edu/maxwell/courses/tutorials/maketutor/  //18.04.2018 //makefile Erstellung
+Chacon, S., & Straub, B. (2014). Pro Git (2. Aufl.). New York: Apress.

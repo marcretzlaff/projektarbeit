@@ -1,0 +1,5 @@
+﻿Regeln:
+
+1. einzelne Dokumente(f�r z.B. "Geschichte von Git") mit Quellen
+2. Interessante Quellen sind in Quellen einzufügen und Captures von Seiten beizufügen.
+
