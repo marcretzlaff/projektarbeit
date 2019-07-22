@@ -1,0 +1,44 @@
+| Nachfrage mit Alznauer wie genau der Umfang neben Git an sich aussieht in Bezug auf "Einleitung" |
+
+SWE1 gibt die ersten paar Punkte im Grunde und SWE2 gibt auch bisschen was.
+In Doku sollte die Sachen auf jedenfall vorkommen. 90min Präsi? (nur Git oder mehr?)
+
+
+	Versionskontrolle - Wozu? Weshalb? Geschichtliche Herkunft
+	Repository - Was ist das? Zentral / Dezentral
+	Techniken - Copy modify merge / lock modify unlock
+	Git - Historie
+	Git - Grundlagen
+	=> Baumstruktur
+		-> Master
+		-> Branches
+	=> Levels zur Veröffentlichung
+		-> Push & Pull    // Top-Down da vermutlich dadurch besser verständlich und andere erklärbarer
+		-> Commit
+		-> Staging
+		-> Pop & Stash
+	=> Gitflow
+	=> Zusammenführung
+		-> Merge // Drei-Wege-Merge
+		-> Rebase
+		-> Squash
+	=> Anwendung // Hier viel Spielraum je nach Bedarf
+		-> Pull Requests // eigentlich auch ein Level
+		-> "Commit-Richtlinien"
+		-> Tools
+		-> etc. //siehe Linux opensource vorgehensweise
+		-> CI integration jenkins / Teamcity
+	=> Vergleich Subversion u.a.
+
+"EXPAMPLE Projekt" begleitet die DOKU & PRÄSI anhand man die einzelnen Schritte nachvollziehen kann
+und bei jedem Thema dann als Beispiel dient.
+In Präsentation eher bildlich anhand GitKraken und in Doku auch git-shell dabei
+
+
+
+
+
+
+
+	
+	
