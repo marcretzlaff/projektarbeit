@@ -24,10 +24,11 @@ In Doku sollte die Sachen auf jedenfall vorkommen. 90min Präsi? (nur Git oder m
 		-> Squash
 	=> Anwendung // Hier viel Spielraum je nach Bedarf
 		-> Pull Requests // eigentlich auch ein Level
+		-> Patches
 		-> "Commit-Richtlinien"
-		-> Tools
+		-> Tools //GitKraken und Github win/linux
 		-> etc. //siehe Linux opensource vorgehensweise
-		-> CI integration jenkins / Teamcity
+		-> CI integration jenkins / Teamcity mit Github etc. //Commit status publisher
 	=> Vergleich Subversion u.a.
 
 "EXPAMPLE Projekt" begleitet die DOKU & PRÄSI anhand man die einzelnen Schritte nachvollziehen kann
