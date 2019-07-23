@@ -1,0 +1,3 @@
+main.o: main.cpp Grafik.h Punkt.h 
+Punkt.o: Punkt.cpp Punkt.h
+Grafik.o: Grafik.cpp Grafik.h

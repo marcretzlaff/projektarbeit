@@ -1,0 +1,5 @@
+main.o: main.c Grafik.h Punkt.h Linie.h
+Punkt.o: Punkt.c Punkt.h
+Linie.o: Linie.c Linie.h
+Grafik.o: Grafik.c Grafik.h
+

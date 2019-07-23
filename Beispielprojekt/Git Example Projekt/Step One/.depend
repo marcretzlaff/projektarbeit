@@ -1,0 +1,8 @@
+main.o: main.c Rechteck.h Punkt.h Kreis.h Dreieck.h Quadrat.h Strecke.h \
+ minmax.h
+Dreieck.o: Dreieck.c Dreieck.h Punkt.h Strecke.h minmax.h
+Quadrat.o: Quadrat.c Quadrat.h Punkt.h Strecke.h minmax.h
+Rechteck.o: Rechteck.c Rechteck.h Punkt.h Strecke.h minmax.h
+Kreis.o: Kreis.c Kreis.h Punkt.h
+Punkt.o: Punkt.c Punkt.h
+Strecke.o: Strecke.c Strecke.h Punkt.h
