@@ -1,6 +1,8 @@
-main.o: main.cpp Grafik.h Punkt.h Linie.h Kreis.h Rechteck.h 
+main.o: main.cpp Grafik.h Punkt.h Linie.h Kreis.h Rechteck.h Text.h Abbildung.h
 Punkt.o: Punkt.cpp Punkt.h
 Linie.o: Linie.cpp Linie.h
 Grafik.o: Grafik.cpp Grafik.h
 Kreis.o: Kreis.cpp Kreis.h
 Rechteck.o: Rechteck.cpp Rechteck.h
+Text.o: Text.cpp Text.h
+Abbildung.o: Abbildung.cpp Abbildung.h

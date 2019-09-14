@@ -53,3 +53,10 @@ double Punkt::y() const
 {
     return y_koordinate;
 }
+
+//
+void Punkt::Zeichne() const
+{
+    cout << "Punkt:" << endl;
+    cout << "  (" << x() << "," << y() << ")" << endl;
+}

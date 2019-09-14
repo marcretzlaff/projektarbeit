@@ -1,0 +1,20 @@
+1. Step git init
+2. Step open repo -> init commit durch gitkraken
+3. Step .gitignore hinzufügen -> ignore .o und geo
+4. Step squash zu Repo init and config
+5. Step add Step Two
+6. Step Branch mit Step Three ( Grafik.h )
+7. Step Master mit Step Four (Linie)
+8. Step Master mit Step Five (Kreis)
+9. Step Master mit Step Six (Rechteck)
+10. Pull request mit Grafik annehmen
+11. New Branch mit Step Seven
+12. rebase auf master
+13. Step Eight auf Master
+14. Step Nine auf Feature
+15. Rebase feature auf master
+// wieso ist master nicht auf feature gesprungen? was genau passiert?
+16. Fast Forward master auf feature
+17. Delete feature branch
+18. Tag Revision 1 and push it
+19. Create enhancement branch für druckertinte function

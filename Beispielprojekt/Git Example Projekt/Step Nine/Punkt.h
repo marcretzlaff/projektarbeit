@@ -27,5 +27,7 @@ public:
     // Zugriffsfunktionen
     double x() const;
     double y() const;
+    //
+    void Zeichne() const;
 };
 #endif

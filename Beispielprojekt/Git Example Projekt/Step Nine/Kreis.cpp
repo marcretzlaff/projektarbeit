@@ -56,5 +56,5 @@ void Kreis::Zeichne() const
     cout << "Kreis" << endl;
     cout << "  Anfangspunkt" << endl;
     mMittelpunkt.Zeichne();
-    cout << "  Radius: " << mRadius << endl;
+    cout << "  Radius" << mRadius << endl;
 }

@@ -7,16 +7,22 @@ using namespace std;
 
 #include "Rechteck.h"
 #include "Kreis.h"
-#include "Text.h"
 
 int main()
 {
-/* Kreis */
-Punkt m(2.0,2.0);
-Kreis sK(m,3.0);
+/* Samples */
+Punkt a(2.0,2.0);
+Punkt b(2.0,4.0);
+Punkt c(4.0,2.0);
+Punkt d(4.0,4.0);
+Kreis sK(a,3.0);
 Punkt punkt1(3.0,4.0);
-Linie linie1(m,punkt1);
-
+Rechteck quadrat(a,b,c,d);
+punkt1.Zeichne();
+Linie linie1(a,punkt1);
+linie1.Zeichne();
+sK.Zeichne();
+quadrat.Zeichne();
 
 return 0;
 }

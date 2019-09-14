@@ -4,10 +4,11 @@ using namespace std;
 #include "Punkt.h"
 #include "Linie.h"
 #include "Grafik.h"
-
+#include "Abbildung.h"
 #include "Rechteck.h"
 #include "Kreis.h"
 #include "Text.h"
+
 
 int main()
 {
@@ -19,13 +20,17 @@ Punkt d(4.0,4.0);
 Kreis sK(a,3.0);
 Punkt punkt1(3.0,4.0);
 Rechteck quadrat(a,b,c,d);
-punkt1.Zeichne();
 Linie linie1(a,punkt1);
-linie1.Zeichne();
-sK.Zeichne();
-quadrat.Zeichne();
 Text text1("Hello World");
-text1.Zeichne();
 
+
+Abbildung Abb;
+
+Abb.FuegeHinzu(&linie1);
+Abb.FuegeHinzu(&text1);
+Abb.FuegeHinzu(&sK);
+Abb.FuegeHinzu(&quadrat);
+Abb.FuegeHinzu(&punkt1);
+Abb.Zeichne();
 return 0;
 }
