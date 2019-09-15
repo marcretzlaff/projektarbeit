@@ -1,20 +1,96 @@
 1. Step git init
-2. Step open repo -> init commit durch gitkraken
-3. Step .gitignore hinzufügen -> ignore .o und geo
-4. Step squash zu Repo init and config
+2. Step open repo -> init commit readme
+3. Step .gitignore hinzufügen -> ignore .o und geo uns step 1
+4. Step squash zu Repo init 
 5. Step add Step Two
-6. Step Branch mit Step Three ( Grafik.h )
+6. Step  feature Branch mit Step Three ( Grafik.h )
 7. Step Master mit Step Four (Linie)
 8. Step Master mit Step Five (Kreis)
 9. Step Master mit Step Six (Rechteck)
-10. Pull request mit Grafik annehmen
+10. Rebase feature onto master (merge conflict)
 11. New Branch mit Step Seven
-12. rebase auf master
+12. fast-foward master auf new branch 11. -> delete danach
 13. Step Eight auf Master
-14. Step Nine auf Feature
-15. Rebase feature auf master
-// wieso ist master nicht auf feature gesprungen? was genau passiert?
-16. Fast Forward master auf feature
-17. Delete feature branch
-18. Tag Revision 1 and push it
-19. Create enhancement branch für druckertinte function
+14. fast-forward feature auf master
+15. Step Nine auf Feature
+16. Pull request feature in master
+18. Delete feature branch
+19. Tag Revision 1 and push it
+20. Create enhancement branch für druckertinte function
+21. Pop&Stash Beispiel
+
+
+#COMMANDOZEILE#
+
+git init
+echo "Tutorial git commandozeile" > README sowie gitignore *o geo müssen untereinander stehen
+git add .gitignore README
+git commit -m 'inital commit'
+
+git status //statusabfrage was geändert wird im working directory
+//kopier step 1 und create
+git add * //dateien mit . am anfang nicht erfasst // funktioniert gitignore???
+git status
+git commit -m 'added makefile main.cpp and depend file'
+
+//squash
+git rebase -i HEAD~[N] //n anzahl commits back
+oder
+git rebase -i Hash //commit before new squashed commit
+
+-> Editor s bei den unteren > speichern strg o > enter > strg x (beenden) > neues fenster (passe commit an) strg o strg enter
+> rebase erfolgreich
+
+
+//kopier step two
+git status
+git add *
+git commit -m 'step two'
+
+git checkout feature
+//kopier 3
+git add*
+git commit -m 'step three'
+//4,5,6
+
+git checkout feature
+git rebase master
+//stoppt wegen konflikte -> in gitkraken resolven
+git rebase --continue
+//möglicherweise master rebase feature um master fast forwarden auf feature oder fast forward
+
+git checkout -b try
+//kopier 7
+git add *
+git commit ...
+
+git fetch . try:master  //fast forward master auf try
+git checkout master
+git branch -d try
+
+//kopier 8
+add commit
+
+git fetch . master:feature
+git checkout feature
+git request-pull bf1674 .   //-p output start url end -> nur info welche man maintainer geben kann
+
+git pull . feature:master //da wir der maintainer sind holen wir uns die changes
+git branch -d feature
+
+git tag -a v1.0 -m 'version 1.0'
+git push origin v1.0
+
+git branch -b enhancement
+
+
+anstatt pull request patch:
+git diff v1.0 a50e14 > patch.diff
+git apply patch.diff
+git add *
+git commit ...
+
+
+
+
+
