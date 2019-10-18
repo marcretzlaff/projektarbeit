@@ -64,7 +64,14 @@ git checkout master
 git stash pop stash@{0}
 git add * falls nicht staged
 git commit
-//5,6 adden 
+//5 adden 
+//neuer Branch mit 6 adden
+git checkout -b addon
+//6 adden
+git checkout master
+git merge addon
+
+//3 in master holen 
 git checkout feature
 git rebase master
 //stoppt wegen konflikte -> in gitkraken resolven

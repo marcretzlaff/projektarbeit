@@ -1,0 +1,26 @@
+git https://de.wikipedia.org/wiki/Datei:Git-logo.svg
+subversion https://upload.wikimedia.org/wikipedia/commons/3/30/Subversion_logo.svg
+integrity https://upload.wikimedia.org/wikipedia/commons/4/4e/PTC_Integrity.png
+repo https://www.pngfly.com/png-87gk6i/
+commit https://www.pngfly.com/png-qu8fmy/
+pull request https://www.pngfly.com/png-1c8kjw/
+fork https://www.pngfly.com/png-pctgnw/
+gitflow https://www.toptal.com/software/trunk-based-development-git-flow
+gitkraken https://www.stickpng.com/img/icons-logos-emojis/tech-companies/gitkraken-logo
+github http://pngimg.com/download/73352
+git fire https://www.pngfly.com/png-pb70sq/
+teamcity https://upload.wikimedia.org/wikipedia/commons/8/86/Teamcity_Logo.png
+jenkins https://upload.wikimedia.org/wikipedia/commons/e/e3/Jenkins_logo_with_title.svg
+branch https://www.pngfly.com/png-lgocpp/
+repo circle https://www.pngfly.com/png-lgocpp/
+command line https://www.pngfly.com/png-unlxpu/
+color branch from repo https://www.pngfly.com/png-add5yx/
+github pull https://www.pngfly.com/png-hj6fzd/
+arrow up https://www.pngfly.com/png-7ew1f8/
+arrow down https://www.pngfly.com/png-29t3hg/
+list https://www.pngfly.com/png-kvhyqn/
+alles blau graue https://codesandbox.io/s/5243r3n82l?from-embed mit hilfe graphjs.com
+gitlab https://about.gitlab.com/press/press-kit/
+open source https://www.flaticon.com/free-icon/open-source_732090
+brace yourself https://blog.cpanel.com/wp-content/uploads/2018/05/image2018-2-16_14-10-15.png
+git text https://www.iconfinder.com/icons/1608906/git_icon

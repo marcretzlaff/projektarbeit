@@ -6,3 +6,9 @@ Quelle:
 
 http://www.cs.colby.edu/maxwell/courses/tutorials/maketutor/  //18.04.2018 //makefile Erstellung
 Chacon, S., & Straub, B. (2014). Pro Git (2. Aufl.). New York: Apress.
+
+https://www.perforce.com/blog/vcs/what-dvcs-anyway // Dezentrales Repo 18.10.2019
+Chuck Gehman 52.6.2018
+
+https://www.perforce.com/blog/vcs/git-vs-svn-what-difference
+perforce.com 18.November 2018 
