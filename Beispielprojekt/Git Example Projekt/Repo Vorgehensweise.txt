@@ -52,7 +52,7 @@ git add *
 git commit -m 'step two'
 
 //kopier step 4
-git stash -u save "step4" -> untracked files also or git add before ( git stash -p for single files )
+git stash save "step4" -u -> untracked files also or git add before ( git stash -p for single files )
 git stash list
 
 git checkout -b feature
