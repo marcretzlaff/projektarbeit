@@ -1,8 +1,10 @@
-| Nachfrage mit Alznauer wie genau der Umfang neben Git an sich aussieht in Bezug auf "Einleitung" |
+Fragen:
 
-SWE1 gibt die ersten paar Punkte im Grunde und SWE2 gibt auch bisschen was.
-In Doku sollte die Sachen auf jedenfall vorkommen. 90min Präsi? (nur Git oder mehr?)
+Inwiefern werden Grundlagen zur Versionskontrolle mit einfliessen? Soll die Projektarbeit dieses Themengebiet erweitern oder eher das vorherige mit u.a. Subversion "ersetzen"?
 
+Soll ein Vergleich mit Subversion stattfinden oder eher in die Richtung: Vergleich zentral dezentrale Versionsverwaltungen?
+
+Wie werden git Begrifflichkeiten behandelt, werden Sachen wie Branch eingedeutscht zu Zweig, wird git syntax (repository und co) zum Beispiel kursiv geschrieben?
 
 	Versionskontrolle - Wozu? Weshalb? Geschichtliche Herkunft
 	Repository - Was ist das? Zentral / Dezentral
@@ -12,19 +14,30 @@ In Doku sollte die Sachen auf jedenfall vorkommen. 90min Präsi? (nur Git oder m
 	=> Baumstruktur
 		-> Master
 		-> Branches
-	=> Levels zur Veröffentlichung
-		-> Push & Pull    // Top-Down da vermutlich dadurch besser verständlich und andere erklärbarer
+	=> Git Kommandos & Funktionen
+		-> Push & Pull   
 		-> Commit
 		-> Staging
 		-> Pop & Stash
-	=> Gitflow
-	=> Zusammenführung
 		-> Merge // Drei-Wege-Merge
 		-> Rebase
 		-> Squash
+		-> gitignore
+		-> Fetch
+		-> Tags
+		-> int
+		-> Checkout
+		-> clone
+		-> remote
+		-> patch
+		-> config
+		-> log
+		-> gitk
+		-> request-Pull
+	=> Git Kommando Kurzbeschreibung
 	=> Anwendung // Hier viel Spielraum je nach Bedarf
-		-> Pull Requests // eigentlich auch ein Level
-		-> Patches
+		-> Gitflow
+		-> Pull Requests in Form von Hostern
 		-> "Commit-Richtlinien"
 		-> Tools //GitKraken und Github win/linux
 		-> etc. //siehe Linux opensource vorgehensweise
@@ -32,8 +45,11 @@ In Doku sollte die Sachen auf jedenfall vorkommen. 90min Präsi? (nur Git oder m
 	=> Vergleich Subversion u.a.
 
 "EXPAMPLE Projekt" begleitet die DOKU & PRÄSI anhand man die einzelnen Schritte nachvollziehen kann
-und bei jedem Thema dann als Beispiel dient.
-In Präsentation eher bildlich anhand GitKraken und in Doku auch git-shell dabei
+und bei jedem Thema dann als Beispiel dient, falls vorhanden.
+
+GitKraken mit in der Doku oder Präsentation? Würde Fokus auf die Präsentation mit legen, falls es noch rein passt.
+git gui welches nativ dabei ist würde "theoretisch" mehr Sinn machen wenn man eine grafische Oberfläche mit einbezieht, aber wenn
+man was grafisches benutzt, dann ist es halt deutlich veraltet -> deswegen GitKraken
 
 
 
