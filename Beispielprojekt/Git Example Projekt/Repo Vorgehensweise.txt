@@ -76,22 +76,23 @@ git checkout feature
 git rebase master
 //stoppt wegen konflikte -> in gitkraken resolven
 git rebase --continue
-->möglicherweise master rebase feature um master fast forwarden auf feature oder fast forward
-
+->möglicherweise in master: git rebase feature um master fast forwarden auf feature
 git checkout -b try
 //kopier 7
 git add *
 git commit ...
 
 git fetch . try:master  //fast forward master auf try
+git merge master // falls benötigt um die Änderungen von try "reinzuholen"
 git checkout master
-git branch -d try
+git branch -d try //delete try
 
 //kopier 8
 add commit
 
-git fetch . master:feature
 git checkout feature
+git rebase master???   falls nicht geht -> git fetch . master:feature //fast forward feature auf master
+
 //kopier 9
 git request-pull bf1674 .   //-p (include patch text) start url (end // falls benötigt) -> nur info welche man maintainer geben kann -> nichts mit github PR zu tun
 		   ^ master last commit
