@@ -25,7 +25,7 @@ stash step 4
 
 git init
 echo "Tutorial git commandozeile" > README
-echo $'*o \n geo' > -gitignore
+echo $'*o \n geo \n *~' > -gitignore
 git add .gitignore README //dateien mit . am anfang nicht erfasst -> .gitignore handisch hizufügen
 git commit -m 'inital commit'
 
