@@ -24,3 +24,6 @@ gitlab https://about.gitlab.com/press/press-kit/
 open source https://www.flaticon.com/free-icon/open-source_732090
 brace yourself https://blog.cpanel.com/wp-content/uploads/2018/05/image2018-2-16_14-10-15.png
 git text https://www.iconfinder.com/icons/1608906/git_icon
+team https://mccoyderek.files.wordpress.com/2016/07/team.jpg
+dreiwegemerge https://www.drdobbs.com/tools/three-way-merging-a-look-under-the-hood/240164902
+pc https://pixabay.com/de/vectors/computer-bildschirm-schreibtisch-pc-303130/
