@@ -1,0 +1,81 @@
+Ablauf und Gliederung der Kommandos anhand dem Beispiel Projekt
+(bevor dies beginnt sollte man vermutlich eine Kurzbeschreibung machen, damit Sachen wie Commit schon grob eingeführt sind)
+_____________________________________________________
+git init doku
+und
+git clone doku
+- - - 
+echo "Tutorial git commandozeile" > README
+echo $'*o \n geo \n *~' > -gitignore
+git add .gitignore README //dateien mit . am anfang nicht erfasst -> .gitignore handisch hizufügen
+- - - 
+Gitignore doku
+git status +  (stage) doku
+git commit + (doku)
+_____________________________________________________
+Step 1 einzeln hinzufügen (3 Commits)
+git squash + doku (nur interaktiver rebase Teil)
+git rebase -i --root
+_____________________________________________________
+(Step 2)
+Step 4 hinzugefügt (gestaged) -> git stash save "Work in progress Linie" + doku stash
+_____________________________________________________
+git branch feature + doku branch
+git branch
+git checkout feature + doku checkout 
+Step 3 commit
+_____________________________________________________
+git checkout master
+git pop stash@{0}
+git add .
+git commit
+_____________________________________________________
+git checkout -b newshape
+step 6
+gitk -> Bild -> newshape über master -> fast-forward + doku gitk
+git checkout master
+git merge newshape + doku merge
+_____________________________________________________
+git log --all --oneline --graph
+git checkout feature
+git rebase master + doku rebase
+git mergetool + doku  (meld: Mit shift löschen anstatt reinschieben, strg hinzufügen statt reinschieben )
+git rebase --continue
+git log --graph --oneline --all
+->  .orig dateien löschen
+git checkout master
+git rebase feature -> fast forward
+_____________________________________________________
+git remote add origin https://github.com/marcretzlaff/Git.git + remote doku
+git remote -v
+git push -f origin --all + push doku
+
+step 7 in github auf neuen branch try
+git fetch origin + doku fetch
+git log --graph --oneline --all
+git checkout try
+git fetch . try:master
+git log --oneline
+_____________________________________________________
+step 8 auf master
+git checkout feature
+git rebase master
+_____________________________________________________
+Step 9 committen
+git request pull <hash> . + doku
+git push origin feature //damit origin es auch hat um pull zu simulieren
+git merge origin/feature um vom server zu holen oder git pull origin feature:master da fast forward
+_____________________________________________________
+git tag -a v0.4 -m 'version 0.4 Meilenstein 3 erreicht'
+_____________________________________________________
+git diff v0.4 HEAD > patch.diff + diff doku
+
+git checkout master
+git apply patch.diff  + patch doku
+oder
+git checkout enhancement
+git format-patch master
+git am <patch>
+
+
+
