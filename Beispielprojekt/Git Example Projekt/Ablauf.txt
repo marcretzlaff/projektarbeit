@@ -9,6 +9,7 @@ echo "Tutorial git commandozeile" > README
 echo $'*o \n geo \n *~' > -gitignore
 git add .gitignore README //dateien mit . am anfang nicht erfasst -> .gitignore handisch hizufügen
 - - - 
+gitconfig + doku
 Gitignore doku
 git status +  (stage) doku
 git commit + (doku)
@@ -76,6 +77,17 @@ oder
 git checkout enhancement
 git format-patch master
 git am <patch>
+_____________________________________________________
+git checkout master
+-> Änderungen an main, commit, push
+git revert HEAD + doku
+git push
+_____________________________________________________
+-> Änderungen, commit
+git reset + doku
+git reset --hard
+
+git reflog + doku
 
 
 
