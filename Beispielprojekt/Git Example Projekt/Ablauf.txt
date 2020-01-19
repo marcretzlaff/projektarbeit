@@ -1,5 +1,22 @@
 Ablauf und Gliederung der Kommandos anhand dem Beispiel Projekt
 (bevor dies beginnt sollte man vermutlich eine Kurzbeschreibung machen, damit Sachen wie Commit schon grob eingeführt sind)
+
+In Kurz: 
+Erstellung Archiv oder Klon und zugehörige Konfiguration (Name, Mail)
+Einführung GitIgnore, Stage, Commit, log
+Squash per interaktivem Rebase
+Einführung Stash
+Branch und Checkout
+Sicht von gitk
+Einführung merge (fast-forward)
+Rebase mit Konflikt, daher mergetool
+Einführung Synchronisierung: remote, push, fetch, pull
+Durchführung request-pull
+Erstellung von tags
+Änderung überführen mit diff, patch 
+Änderungen rückgänig machen mit revert, reset
+Übersicht reflog
+Erklärung weiterer wichtigen Kommandos show, blame, cherry-pick, cherry
 _____________________________________________________
 git init doku
 und
