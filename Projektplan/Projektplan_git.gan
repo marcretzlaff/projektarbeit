@@ -4,7 +4,7 @@
         <field id="tpd3" name="Vorgang" width="295" order="0"/>
         <field id="tpd4" name="Anfang" width="57" order="1"/>
         <field id="tpd5" name="Ende" width="67" order="2"/>
-        <option id="color.recent"><![CDATA[#ff9933 #3399ff #ffffff #999999]]></option>
+        <option id="color.recent"><![CDATA[#000000 #00cc00 #999999 #f4f4f4 #666666 #66ff66 #ff9933 #3399ff #ffffff]]></option>
     </view>
     <view id="resource-table">
         <field id="0" name="Ressource" width="210" order="0"/>
@@ -35,39 +35,39 @@
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
         <task id="26" name="Projektarbeit" meeting="false" start="2020-01-27" duration="45" complete="0" expand="true">
-            <task id="5" name="Dokumentation" color="#3399ff" meeting="false" start="2020-01-27" duration="25" complete="0" thirdDate="2020-01-16" thirdDate-constraint="0" expand="true">
-                <task id="37" name="Verfassen der Texte" color="#3399ff" meeting="false" start="2020-01-27" duration="20" complete="0" thirdDate="2020-02-10" thirdDate-constraint="0" expand="true">
-                    <task id="56" name="Kapitel 1: Einleitung" color="#3399ff" meeting="false" start="2020-02-10" duration="2" complete="0" thirdDate="2020-02-10" thirdDate-constraint="0" expand="true">
+            <task id="5" name="Dokumentation" color="#999999" meeting="false" start="2020-01-27" duration="25" complete="0" thirdDate="2020-01-16" thirdDate-constraint="0" expand="true">
+                <task id="37" name="Verfassen der Texte" color="#999999" meeting="false" start="2020-01-27" duration="20" complete="0" thirdDate="2020-02-10" thirdDate-constraint="0" expand="true">
+                    <task id="56" name="Kapitel 1: Einleitung" color="#00cc00" meeting="false" start="2020-02-10" duration="2" complete="0" thirdDate="2020-02-10" thirdDate-constraint="0" expand="true">
                         <depend id="57" type="2" difference="0" hardness="Strong"/>
                     </task>
-                    <task id="57" name="Kapitel 2: Probleme" color="#3399ff" meeting="false" start="2020-02-12" duration="4" complete="0" thirdDate="2020-02-10" thirdDate-constraint="0" expand="true">
+                    <task id="57" name="Kapitel 2: Probleme" color="#00cc00" meeting="false" start="2020-02-12" duration="4" complete="0" thirdDate="2020-02-10" thirdDate-constraint="0" expand="true">
                         <depend id="58" type="2" difference="0" hardness="Strong"/>
                     </task>
-                    <task id="58" name="Kapitel 3.1: Historie" color="#3399ff" meeting="false" start="2020-02-18" duration="2" complete="0" thirdDate="2020-02-10" thirdDate-constraint="0" expand="true">
+                    <task id="58" name="Kapitel 3.1: Historie" color="#00cc00" meeting="false" start="2020-02-18" duration="2" complete="0" thirdDate="2020-02-10" thirdDate-constraint="0" expand="true">
                         <depend id="61" type="2" difference="0" hardness="Strong"/>
                     </task>
                     <task id="59" name="Kapitel 3.2: Grundlegendes Prinzip" color="#3399ff" meeting="false" start="2020-02-03" duration="5" complete="0" thirdDate="2020-02-03" thirdDate-constraint="0" expand="true"/>
                     <task id="62" name="Kapitel 4.1: Beispielprojekt" color="#3399ff" meeting="false" start="2020-02-03" duration="5" complete="0" thirdDate="2020-02-03" thirdDate-constraint="0" expand="true"/>
                     <task id="55" name="Kapitel 5: Workflows" color="#3399ff" meeting="false" start="2020-01-27" duration="5" complete="0" thirdDate="2020-01-21" thirdDate-constraint="0" expand="true"/>
                     <task id="60" name="Kapitel 6: Dateiverwaltung" color="#3399ff" meeting="false" start="2020-01-27" duration="5" complete="0" thirdDate="2020-01-27" thirdDate-constraint="0" expand="true"/>
-                    <task id="61" name="Kapitel 7: Fazit" color="#3399ff" meeting="false" start="2020-02-20" duration="2" complete="0" thirdDate="2020-01-21" thirdDate-constraint="0" expand="true">
+                    <task id="61" name="Kapitel 7: Fazit" color="#00cc00" meeting="false" start="2020-02-20" duration="2" complete="0" thirdDate="2020-01-21" thirdDate-constraint="0" expand="true">
                         <depend id="40" type="2" difference="0" hardness="Strong"/>
                     </task>
                 </task>
-                <task id="94" name="Übertragen der Texte" color="#3399ff" meeting="false" start="2020-02-24" duration="2" complete="0" thirdDate="2020-02-24" thirdDate-constraint="0" expand="true">
+                <task id="94" name="Übertragen der Texte" color="#00cc00" meeting="false" start="2020-02-24" duration="2" complete="0" thirdDate="2020-02-24" thirdDate-constraint="0" expand="true">
                     <depend id="44" type="2" difference="0" hardness="Strong"/>
                 </task>
-                <task id="40" name="Visualisierungen in der Dokumentation" color="#3399ff" meeting="false" start="2020-02-24" duration="5" complete="0" thirdDate="2020-02-10" thirdDate-constraint="0" expand="true"/>
+                <task id="40" name="Visualisierungen in der Dokumentation" color="#999999" meeting="false" start="2020-02-24" duration="5" complete="0" thirdDate="2020-02-10" thirdDate-constraint="0" expand="true"/>
             </task>
-            <task id="13" name="Präsentation" color="#ff9933" meeting="false" start="2020-02-26" duration="13" complete="0" thirdDate="2020-01-21" thirdDate-constraint="0" expand="true">
-                <task id="44" name="Aufbau der Präsentation" color="#ff9933" meeting="false" start="2020-02-26" duration="3" complete="0" thirdDate="2020-02-13" thirdDate-constraint="0" expand="true">
+            <task id="13" name="Präsentation" color="#999999" meeting="false" start="2020-02-26" duration="13" complete="0" thirdDate="2020-01-21" thirdDate-constraint="0" expand="true">
+                <task id="44" name="Aufbau der Präsentation" color="#999999" meeting="false" start="2020-02-26" duration="3" complete="0" thirdDate="2020-02-13" thirdDate-constraint="0" expand="true">
                     <depend id="49" type="2" difference="0" hardness="Strong"/>
                 </task>
-                <task id="49" name="Ausarbeitung der Präsentation" color="#ff9933" meeting="false" start="2020-03-02" duration="10" complete="0" thirdDate="2020-02-13" thirdDate-constraint="0" expand="true"/>
+                <task id="49" name="Ausarbeitung der Präsentation" color="#00cc00" meeting="false" start="2020-03-02" duration="10" complete="0" thirdDate="2020-02-13" thirdDate-constraint="0" expand="true"/>
             </task>
             <task id="115" name="Generelle Überarbeitung" color="#999999" meeting="false" start="2020-03-02" duration="20" complete="0" thirdDate="2020-03-02" thirdDate-constraint="0" expand="true"/>
         </task>
-        <task id="29" name="Finale Abgabe" color="#ffffff" meeting="false" start="2020-03-30" duration="1" complete="0" thirdDate="2020-03-16" thirdDate-constraint="0" expand="true"/>
+        <task id="29" name="Finale Abgabe" color="#000000" meeting="false" start="2020-03-30" duration="1" complete="0" thirdDate="2020-03-16" thirdDate-constraint="0" expand="true"/>
     </tasks>
     <resources>
         <resource id="0" name="Retzlaff" function="Default:0" contacts="" phone=""/>
