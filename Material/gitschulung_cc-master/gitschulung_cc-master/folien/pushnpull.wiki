@@ -1,0 +1,54 @@
+==== Push'n'pull Workflow ====
+
+<[center]
+<<<bilder/push-pull\de{}{-en}.pdf, scale=0.15>>>
+[center]>
+
+<[columns]
+[[[ 5cm ]]]
+_blue_1._ \de{Lokale Änderungen}{Local changes}
+* @vim ''\de{datei}{file}''@
+* @git add ''\de{datei}{file}''@
+* @git commit -m "''msg''"@
+[[[ 5.5cm ]]]
+_blue_2._ \de{Änderungen veröffentlichen}{Publish changes}
+* @git push@
+* \de{Wenn @push@ fehlschlägt}{If @push@ fails}
+* @git pull@, \de{dann}{then} @git push@
+% ** @git pull@
+% ** @git push@
+[columns]>
+
+==== Push'n'pull Workflow \de{Resultat}{Results}====
+
+<[columns]
+[[[ 3cm ]]]
+<[center]
+<<<bilder/push-n-pull-result.pdf, scale=0.25>>>
+[center]>
+[[[ 7cm ]]]
+* \de{Vorteile}{Advantages}
+** \de{Leicht für Anfänger}{Easy for beginners}
+** \de{Nur weniger Kommandos}{Only a few commands}
+--1cm--
+* \de{Nachteile}{Disadvantages}
+** \de{Es entstehen Merge-Commits}{Merge-Commits}
+** \de{»Aber wir arbeiten doch alle auf @master@?\!«}{«We are all working on ** ** @master@?\!»}
+** Rebase \de{ist eine Option (für Anfänger?)}{is an Option (for beginners?)}
+[columns]>
+
+==== Push'n'pull Workflow \de{Resultat mit @-{}-rebase@}{Results with @-{}-rebase@}====
+
+<[columns]
+[[[ 3cm ]]]
+<[center]
+<<<bilder/push-n-pull-rebase-result.pdf, scale=0.25>>>
+[center]>
+[[[ 7cm ]]]
+* \de{Vorteile}{Advantages}
+** \de{Keine Merge-Commits}{No merge-commits}
+--1cm--
+* \de{Nachteile}{Disadvantages}
+** \de{»Sinnloses« Linearisieren}{Useless linearisation}
+** \de{Feature-Commits in zufälliger Reihenfolge}{Feature-commits in random order}
+[columns]>

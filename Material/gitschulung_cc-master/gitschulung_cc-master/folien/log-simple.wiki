@@ -1,0 +1,20 @@
+==== \de{Die Versionsgeschichte anzeigen}{Viewing History} ====
+
+* @git log@ \de{listet alle Commits auf, den neusten zuerst}\
+               {lists all commits, the newest first}
+
+<[block]{\de{Versionsgeschichte seit Anfang}{History since the beginning}}
+@git log@
+[block]>
+
+<[block]{\de{Versionsgeschichte mit Patches}{History including patches}}
+@git log -p@
+[block]>
+
+<[block]{\de{Nur den aktuellen Commit}{The current commit only}}
+@git log -1@
+[block]>
+
+<[block]{\de{Als Einzeiler}{One-line summary}}
+@git log -{}-oneline@
+[block]>
