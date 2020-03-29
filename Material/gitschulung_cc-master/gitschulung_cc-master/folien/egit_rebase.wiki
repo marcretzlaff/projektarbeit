@@ -1,4 +1,0 @@
-==== EGit: Rebase ====
-
-* ''History-View'' --> ''Rebase''
-* ''Repository-View'' --> ''Rebase...''

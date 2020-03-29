@@ -1,9 +1,0 @@
-==== \de{'''Übung:''' Schauen Sie sich die Geschichte an}{'''Exercise:''' View History} ====
-
-# \de{Betrachten Sie, was Sie bisher gemacht haben mit @git log@}{View the work you’ve done so far using @git log@}
-# \de{Machen Sie einen neuen Commit, und vergleichen Sie die Ausgabe von @git log@}{Create a new commit and view @git log@ again}
-# \de{Betrachten Sie nur die ''n'' neusten Commits mit @git log -''n''@}{View only the ''n'' newest commits using @git log -''n''@}
-# \de{Passen Sie die Ausgabe von @git log@ an, verwenden Sie:}{Modify the output of @git log@, use:}
-#* @git log -{}-oneline@
-#* @git log -{}-stat@
-#* @git log -p@

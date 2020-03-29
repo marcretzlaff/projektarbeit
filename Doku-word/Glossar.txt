@@ -1,6 +1,0 @@
-Repository - Projektarchiv
-Staging Area - Index
-Commit - Schnappschuss (Jedoch nur zur Erklärung)
-tags - Etikett
-squash - Verschmelzen
-shared repository - Referenzarchiv

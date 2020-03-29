@@ -1,4 +1,0 @@
-==== EGit: Merges ====
-
-* ''History-View'' --> ''Merge''
-* ''Repository-View'' --> ''Merge...''

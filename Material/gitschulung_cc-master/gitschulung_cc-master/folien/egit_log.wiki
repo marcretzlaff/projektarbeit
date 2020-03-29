@@ -1,3 +1,0 @@
-==== EGit: Log ====
-
-* ''History View''

@@ -1,7 +1,0 @@
-==== EGit: Config ====
-
-* ''Window'' --> ''Preferences''
-* \de{Nach ''git'' suchen}{Look for ''git''}
-* ''User Settings''
-* ''System Settings''
-* ''Repository Settings''

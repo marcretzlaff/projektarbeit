@@ -1,5 +1,0 @@
-==== EGit: Commit ====
-
-* ''Staging View''
-* ''Java Perspective'': ''File'' --> ''Team'' --> ''Commit''
-* ''Repository-View''
